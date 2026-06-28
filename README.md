@@ -37,19 +37,19 @@ python -m streamlit run app.py
 ## Images
 
 ### Ground Tracks
-![img](Images/groundtracks.png)
+![img](/Images/groundtracks.png)
 
 
 
 ### Orbits over Colombia
-![img](Images/map.png)
+![img](/Images/map.png)
 
 
 
 ## Dashboard
 
 ### Counting satellites over cities
-![img](Images/cities.png)
+![img](/Images/cities.png)
 
 
 

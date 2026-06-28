@@ -1,63 +1,55 @@
-
 # 🛰️ Satellite Orbit Analysis over Colombia
 
-This project analyzes satellite trajectories using real TLE (Two-Line Element) data and visualizes their coverage over Colombia.
+This project analyzes satellite trajectories using real TLE (Two-Line Element) data, implementing orbital propagation models to visualize and calculate coverage over Colombia.
 
 ## 🚀 Features
-
-- Orbital propagation using Keplerian models
-- Ground track visualization
-- Satellite coverage analysis over major Colombian cities
-- Interactive dashboard built with Streamlit
+- **Orbital Propagation:** Using Keplerian models to predict satellite positioning.
+- **Ground Track Visualization:** Mapping 2D and 3D paths relative to Earth's surface.
+- **Coverage Analysis:** Statistical evaluation of satellite passes over major Colombian cities.
+- **Interactive Dashboard:** Core analysis deployed into a user-friendly interface using Streamlit.
 
 ## 📂 Project Structure
+- `Notebooks/` → Step-by-step mathematical and exploratory analysis.
+- `data/` → TLE datasets.
+- `Images/` → Output visualizations and assets.
+- `app.py` → Interactive dashboard codebase.
 
-- `Notebooks/` → step-by-step analysis
-- `data/` → TLE datasets
-- `app.py` → interactive dashboard
+## 📊 Analysis Workflow (Notebooks)
+1. Data loading and preprocessing of TLE structures.
+2. Extraction of Keplerian orbital elements.
+3. Orbital propagation algorithms & ground track generation.
+4. Geospatial coverage analysis filtered by Colombian city coordinates.
 
-## 📊 Notebooks
+## 🛠️ Technologies
+- **Core Language:** Python
+- **Data & Math:** NumPy, Pandas
+- **Visualization & Geospatial:** Matplotlib, Folium
+- **Deployment:** Streamlit
 
-1. Data loading and preprocessing
-2. Orbital elements extraction
-3. Orbital propagation & ground tracks
-4. Coverage analysis by city
-5. Interactive dashboard
+## ▶️ Run the Dashboard Locally
 
-## 🛰️ Example Output
+```bash
+pip install -r requirements.txt
+python -m streamlit run app.py
+```
 
-- Satellite ground tracks over Colombia
-- Number of satellites passing over cities
-- Interactive visualization
-
-## ▶️ Run the Dashboard
-
-'pip install -r requirements.txt'
-'python -m streamlit run app.py'
-
-##  Technologies
-- Python
-- NumPy
-- Matplotlib
-- Folium
-- Streamlit
 
 ## Images
 
 ### Ground Tracks
-![img](../Images/groundtracks.png)
+![img](Images/groundtracks.png)
 
 
 
 ### Orbits over Colombia
-![img](../Images/map.png)
+![img](Images/map.png)
 
 
 
 ## Dashboard
 
 ### Counting satellites over cities
-![img](../Images/cities.png)
+![img](Images/cities.png)
 
 
 

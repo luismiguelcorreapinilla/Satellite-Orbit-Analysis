@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Satellite Orbit Analysis over Colombia"
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: "Correa Pinilla"
+    given-names: "Luis Miguel"
+    affiliation: "GeoSpatial Intelligence Lab"
+    orcid: ""
+
+repository-code: "https://github.com/Bochika/Satellite-Orbit-Analysis-over-Colombia-Kepler"
+
+abstract: >
+  Scientific workflow for satellite orbit propagation, ground-track
+  visualization, and spatial coverage analysis over Colombia using
+  Two-Line Element (TLE) data, orbital propagation models, and
+  interactive geospatial visualization.
+
+keywords:
+  - Earth Observation
+  - Satellite Orbits
+  - Orbital Mechanics
+  - TLE
+  - SGP4
+  - Keplerian Propagation
+  - Python
+  - GeoAI
+  - Scientific Computing
+  - Colombia
+
+license: MIT
+
+version: 1.0.0
+
+date-released: 2026-07-22

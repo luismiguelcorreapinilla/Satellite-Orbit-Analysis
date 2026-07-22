@@ -9,7 +9,7 @@ authors:
     affiliation: "GeoSpatial Intelligence Lab"
     orcid: ""
 
-repository-code: "https://github.com/Bochika/Satellite-Orbit-Analysis-over-Colombia-Kepler"
+repository-code: "https://github.com/luismiguelcorreapinilla/Satellite-Orbit-Analysis"
 
 abstract: >
   Scientific workflow for satellite orbit propagation, ground-track

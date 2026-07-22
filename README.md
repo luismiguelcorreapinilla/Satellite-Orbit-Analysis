@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banners/banner.png" width="100%">
+  <img src="assets/banner/GeoSpatial_Intelligence_Lab_banner.png" width="100%">
 </p>
 
 <h1 align="center">🛰️ Satellite Orbit Analysis over Colombia</h1>
@@ -140,7 +140,7 @@ The project follows a reproducible scientific workflow:
 
 ## Satellite Orbits over Colombia
 
-![Orbit Map](assets/figures/map.png)
+![Orbit Map](assets/figures/mapa.png)
 
 ---
 
